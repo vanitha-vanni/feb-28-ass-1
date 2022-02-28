@@ -1,0 +1,11 @@
+x=[4,6,9,9,7,6,3,7,1,5,9,4,6]
+l=[]
+l1=[]
+for i in x:
+    if i not in l:
+        p=x.count(i)
+        if p%2!=0:
+            l.append(i)
+print(l)
+output:
+[6, 9, 3, 1, 5]
